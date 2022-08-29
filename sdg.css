@@ -1,0 +1,104 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(6, 6, 124, 0.521);
+}
+
+nav h1{
+    font-size: 30px;
+    margin-left: 30px;
+    color: white;
+    text-shadow: 0 0 2px black;
+}
+
+nav span{
+    font-size: 45px;
+    color: yellow;
+}
+
+nav ul li{
+    display: inline-flex;
+    margin: 0 30px;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    text-shadow: 0 0 2px black;
+}
+
+nav ul li a:hover{
+    background: white;
+    padding: 8px 10px;
+    color: black;
+    box-shadow: 0 0 5px white;
+    border-radius: 10px;
+    transition: 1s;
+}
+
+.part1{
+    width: 100%;
+    height: 600px;
+    background: url(/health/Healthcare-technology.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+form{
+    width: 20%;
+    text-align: left;
+    padding: 10px 20px;
+    background: white;
+    border-radius: 20px 0 0 20px;
+    box-shadow: 0 0 3px black;
+}
+
+#space{
+    width: 100%;
+    height: 25px;
+    border-radius: 5px;
+}
+
+form input{
+    margin-bottom: 5px;
+}
+
+form label{
+    padding-top: 30px;
+    font-weight: bold;
+}
+
+.form{
+    position: relative;
+    top: 10%;
+    left: 10%;
+}
+
+form h1{
+    text-align: center;
+    font-size: 30px;
+    color: blue;
+    text-shadow: 0 0 3px black;
+}
+#sex{
+    font-weight: 500;
+}
+
+form button{
+    padding: 0 5px;
+    font-weight: bold;
+    font-size: 15px;
+    margin-top: 5px;
+    background: blue;
+    color: white;
+}
