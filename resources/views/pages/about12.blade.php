@@ -1,0 +1,96 @@
+@extends('pages.layout')
+@section('content')
+    <section id="about">
+        <div class="part">
+            <div class="part1">
+                <h1>ABOUT US</h1>
+                
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Recusandae eum, assumenda animi, sint architecto id cum 
+                    deleniti mollitia culpa asperiores nemo fugiat rerum suscipit 
+                    voluptas amet modi ab. Et, repellendus. Lorem ipsum dolor sit
+                    amet consectetur adipisicing elit. Quasi harum enim hic eaque,
+                    unde commodi corporis, reiciendis quisquam beatae debitis 
+                    facere omnis ipsam odio quod. Cumque deserunt, eaque quia in
+                    vel, voluptates minima reiciendis sit itaque accusamus delectus
+                    sapiente molestiae laborum unde saepe doloremque illum assumenda
+                    enim illo minus, architecto  adipisci?
+                </p>
+                <button><a href="">Learn More</a></button>
+            </div>
+            <div class="part2"></div>
+        </div>
+    </section>
+     <!-- footer -->
+     <footer id="footer" class="footer text-center">
+        <div class="container">
+            <div class="footer-inner text-white py grid">
+            <div class="footer-item">
+                <h3 class="footer-head">about us</h3>
+                <div class="icon">
+                <img src="/imgs/brand-logo.jpeg" alt="">
+                <h3>Medi<span>Care</span> </h3>
+                </div>
+                <p class="text text-md">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <address>
+                MediCare <br>
+                20 Code Plateau Campus, off Zaramanganda rd <br>
+                Jos, Plateau State <br>
+                Nigeria
+                </address>
+            </div>
+            
+            <div class="footer-item">
+                <h3 class="footer-head">tags</h3>
+                <ul class="tags-list flex">
+                <li>medical care</li>
+                <li>emergency</li>
+                <li>therapy</li>
+                <li>surgery</li>
+                <li>medication</li>
+                <li>nurse</li>
+                </ul>
+            </div>
+
+            <div class="footer-item">
+                <h3 class="footer-head">Quick links</h3>
+                <ul>
+                <li><a href="#" class="text-white">Our Services</a></li>
+                <li><a href="#" class="text-white">Our Plan</a></li>
+                <li><a href="#" class="text-white">Privacy Policy</a></li>
+                <li><a href="#" class="text-white">Appointment Schedule</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-item">
+                <h3 class="footer-head">make an appointment</h3>
+                <p class="text text-md">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                <ul class="appointment-info">
+                <li>8:00 AM - 11:00 AM</li>
+                <li>2:00 PM - 05:00 PM</li>
+                <li>6:00 PM - 11:00 PM</li>
+                <li>
+                    <i class="fas fa-envelope"></i>
+                    <span>medicare@gmail.com</span>
+                </li>
+                <li>
+                    <i class="fas fa-phone"></i>
+                    <span>+234 (814) 042 3552</span>
+                </li>
+                </ul>
+            </div>
+            </div>
+            <div class="footer-links">
+            <ul class="flex">
+                <li><a href="https://www.facebook.com" class="text-white flex"><i class="fab fa-facebook-f"></i></a></li>
+                <li><a href="https://www.twitter.com" class="text-white flex"><i class="fab fa-twitter"></i></a></li>
+                <li><a href="https://facebook.com" class="text-white flex"><i class="fab fa-linkedin"></i></a></li>
+                <li><a href="https://www.instagram.com" class="text-white flex"><i class="fab fa-instagram"></i></a></li>
+            </ul>
+            </div>
+        </div>
+    </footer>
+    <!-- end of footer -->
+
+@endsection('content')

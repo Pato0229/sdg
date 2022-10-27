@@ -18,8 +18,8 @@ use Illuminate\Support\Facades\Route;
 //     return view('welcome');
 // });
 
-Route::get('/', [SDGController::class, 'about']);
-Route::get('home', [SDGController::class, 'about']);
+Route::get('/', [SDGController::class, 'medickit']);
+Route::get('home', [SDGController::class, 'medickit']);
 Route::get('about', [SDGController::class, 'about']);
 Route::get('blog', [SDGController::class, 'blog']);
 Route::get('contact', [SDGController::class, 'contact']);
