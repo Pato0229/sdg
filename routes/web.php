@@ -14,12 +14,19 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+// Route::get('/', function () {
+//     return view('welcome');
+// });
 
+Route::get('/', [SDGController::class, 'about']);
+Route::get('home', [SDGController::class, 'about']);
 Route::get('about', [SDGController::class, 'about']);
 Route::get('blog', [SDGController::class, 'blog']);
 Route::get('contact', [SDGController::class, 'contact']);
-Route::get('doctor', [SDGController::class, 'doctor']);
-Route::get('medickit', [SDGController::class, 'medickit']);
+Route::get('about', [SDGController::class, 'about']);
+
+Route::get('/dashboard', function () {
+    return view('dashboard');
+})->middleware(['auth', 'verified'])->name('dashboard');
+
+require __DIR__.'/auth.php';
